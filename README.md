@@ -11,8 +11,12 @@ riscv32-esp-elf-as.exe
 ```
 
 ### tutorial
+https://www.google.com/search?client=firefox-b-d&q=riscv+assembler+comment  
+
 https://web.eecs.utk.edu/~smarz1/courses/ece356/notes/assembly/  
+
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjbidbqw4_9AhUrzjgGHTCcA-kQFnoECAkQAQ&url=https%3A%2F%2Finst.eecs.berkeley.edu%2F~cs61c%2Fsu21%2Fpdfs%2Flectures%2Ffa20-trimmed%2Flec07_lec08.pdf&usg=AOvVaw3inpXuF1aZmKLEJuikULNY  
+
 https://inst.eecs.berkeley.edu/~cs61c/su21/pdfs/lectures/fa20-trimmed/lec07_lec08.pdf  
 
 testing code,
