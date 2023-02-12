@@ -11,7 +11,7 @@ riscv32-esp-elf-as.exe
 ```
 
 testing code,
-[NOP.asm](NOP.asm)  
+[NOP.s](NOP.s)  
 ```
 # RISCV assembler, comment uses (#), not usually found (;) of x86/avr assembler
 # ref:
