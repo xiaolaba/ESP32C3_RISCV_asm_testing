@@ -14,6 +14,7 @@
 #Register 	ABI 	Use by convention 	Preserved?
 #x0 	zero 	hardwired to 0, ignores writes 	n/a
 
+.org 0x007
 #capital_letter:
 #	ADDI x1 x0 x0
 
@@ -27,6 +28,7 @@
 #.section .rodata
 prompt: .asciz "Value of t0 = %ld and value of t1 = %ld\n"
 #.section .text
+	.org 0x1999
 myfunc:
     addi    sp, sp, -8
     #sd      ra, 0(sp)
@@ -37,6 +39,9 @@ myfunc:
     #ld      ra, 0(sp)
     addi    sp, sp, 8
     ret
+
+	.org 0x2234
+myfunc_2:	
 	.equ UART_BASE, 0x40003080
 	lui	a0, %hi(UART_BASE)
 	addi a0, a0, %lo(UART_BASE)
