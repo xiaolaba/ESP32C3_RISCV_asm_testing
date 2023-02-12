@@ -80,7 +80,7 @@ myfunc:
 ```
 
 assembly code,  
-[a.bat](a.bat)  
+[asm.bat](asm.bat)  
 ```
 riscv32-esp-elf-as.exe NOP.s -o NOP.elf
 ```
