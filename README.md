@@ -84,3 +84,5 @@ assembly code,
 ```
 riscv32-esp-elf-as.exe NOP.s -o NOP.elf
 ```
+
+![riscv_asm_testing.JPG](riscv_asm_testing.JPG)  
